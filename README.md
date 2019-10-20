@@ -15,7 +15,6 @@ strncpy.c is verified by using input which is placed in strncpyVerify.txt file.
 The file strcat.c contains a strcat method which is formed by reducing it into strcpy and strlen functions.
 It is done by first using strlen function which is used to reach last vacant position of string into which we want to concatenate.
 Then second string is copied into first string.
-strcat.c is verified by using input which is placed in strcatVerify.txt file.
 
 The file strncat.c contains a strncat method which is formed by reducing it into strcpy and strlen functions.
 It is done same as strcat method but here while condition of strcpy is changed.
